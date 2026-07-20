@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CRICKET LAD — Autonomous RAG Lab</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav">
+      <div class="brand"><span class="brand-mark">CL</span><span>CRICKET LAD</span></div>
+      <a href="/docs">API Docs</a>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ChatGPT AI Revolution • Autonomous Research Platform</p>
+        <h1>Turn web knowledge into a self-correcting RAG learning lab.</h1>
+        <p class="hero-text">Connect sources, collect knowledge, vectorize evidence, ask questions, verify answers, and improve automatically — all from one polished hackathon demo.</p>
+        <div class="actions">
+          <button id="run-demo" class="primary"><span>▶</span> Run Live Lab</button>
+          <a class="secondary" href="#pipeline">See pipeline</a>
+        </div>
+      </div>
+      <div class="lab-card" aria-label="Live lab visualization">
+        <div class="orbit"><span></span><span></span><span></span></div>
+        <h2>Live Lab Vision</h2>
+        <p id="status">Ready to research physics, biology, news, and social context.</p>
+      </div>
+    </section>
+
+    <section id="pipeline" class="grid">
+      <article><b>01</b><h3>Collect</h3><p>Google-style research and social connectors provide normalized content packets.</p></article>
+      <article><b>02</b><h3>Vectorize</h3><p>Documents are cleaned, chunked, embedded, ranked, and stored for retrieval.</p></article>
+      <article><b>03</b><h3>Question</h3><p>The lab generates quiz prompts such as Newton’s second law and asks the model.</p></article>
+      <article><b>04</b><h3>Correct</h3><p>Responses are checked against retrieved evidence and corrected when confidence is low.</p></article>
+    </section>
+
+    <section class="demo-panel">
+      <div>
+        <h2>Autonomous demo output</h2>
+        <p>Press play to ingest curated demo knowledge and run an automated learning cycle.</p>
+      </div>
+      <pre id="output">Waiting for run...</pre>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

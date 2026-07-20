@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+*.pyc
+data/vector_store/*.json
+!data/vector_store/.gitkeep
