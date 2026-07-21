@@ -6,7 +6,7 @@ CRICKET LAD is a polished hackathon platform for the **ChatGPT AI Revolution** i
 
 ## Hackathon Submission
 
-Use `HACKATHON_SUBMISSION.md` for paste-ready title, pitch, judging steps, and demo link instructions. If your demo link is not working for judges, follow `DEPLOYMENT.md` to create a public hosted URL; `127.0.0.1` only works on your own computer.
+Use `HACKATHON_SUBMISSION.md` for paste-ready title, pitch, judging steps, and demo link instructions. For the fastest public link, enable GitHub Pages from the `docs/` folder using `GITHUB_PAGES.md`. If you want the full backend API hosted too, follow `DEPLOYMENT.md`.
 
 ## Website Experience
 
@@ -59,7 +59,7 @@ Open locally:
 - Website: `http://127.0.0.1:8000/`
 - API docs: `http://127.0.0.1:8000/docs`
 
-For hackathon submission, deploy first and submit the public hosted URL, not the local `127.0.0.1` URL.
+For hackathon submission, submit the GitHub Pages URL from `docs/` or deploy the backend and submit that public hosted URL. Do not submit the local `127.0.0.1` URL.
 
 ## Example API Usage
 

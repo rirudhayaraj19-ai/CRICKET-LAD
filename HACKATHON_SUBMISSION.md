@@ -10,17 +10,13 @@ An AI lab built by a 12-year-old that researches trusted knowledge, turns it int
 CRICKET LAD is an autonomous learning platform for the OpenAI Codex Hackathon. The system collects knowledge from connector-ready sources, cleans and chunks it, stores it in a vector index, retrieves evidence, answers questions, verifies the answer, and corrects mistakes. The live demo shows the full loop with a science question: it starts with a wrong answer, checks retrieved evidence, and replaces it with a grounded answer.
 
 ## Demo Link
-Use a hosted deployment link for judges. The local link below is only for your computer while the server is running:
+Use the GitHub Pages link for the fastest judge-ready demo. After enabling Pages from the `docs/` folder, paste this format:
 
 ```text
-http://127.0.0.1:8000/
+https://YOUR-GITHUB-USERNAME.github.io/CRICKET-LAD/
 ```
 
-Before submitting, deploy with `DEPLOYMENT.md` and replace this with your public URL, for example:
-
-```text
-https://cricket-lad.onrender.com/
-```
+If you want the full backend API version, deploy with `DEPLOYMENT.md`. For a fast competition submission, the GitHub Pages demo in `docs/` works as a standalone website.
 
 ## What Judges Should Try
 1. Open the website.
