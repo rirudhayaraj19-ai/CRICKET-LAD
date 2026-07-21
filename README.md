@@ -4,6 +4,10 @@ CRICKET LAD is a polished hackathon platform for the **ChatGPT AI Revolution** i
 
 > Security note: never commit API keys. Configure Pinecone, OpenAI, Google, Instagram, Facebook, or other provider credentials in `.env` only. Use official APIs/OAuth flows and respect platform terms instead of scraping private or protected data.
 
+## Hackathon Submission
+
+Use `HACKATHON_SUBMISSION.md` for paste-ready title, pitch, judging steps, and demo link instructions.
+
 ## Website Experience
 
 Run the server and open `/` to see a modern landing page with:
