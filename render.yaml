@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: cricket-lad
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: VECTOR_STORE_PATH
+        value: data/vector_store/store.json
