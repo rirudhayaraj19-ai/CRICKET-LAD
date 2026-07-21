@@ -1,12 +1,12 @@
-# CRICKET LAD — Autonomous RAG Lab
+# AutoLearn Lab — Autonomous RAG Study Engine
 
-CRICKET LAD is a polished hackathon platform for the **ChatGPT AI Revolution** idea: an autonomous research lab that collects knowledge, vectorizes evidence, asks itself questions, verifies answers, and corrects mistakes. The app now includes a demo-ready website, FastAPI backend, local vector store, connector abstractions, workflow automation, and a one-click live lab simulation.
+AutoLearn Lab, built in the CRICKET LAD repository, is a polished hackathon platform for the **ChatGPT AI Revolution** idea: an autonomous research lab that collects knowledge, vectorizes evidence, asks itself questions, verifies answers, and corrects mistakes. The app now includes a demo-ready website, FastAPI backend, local vector store, connector abstractions, workflow automation, and a one-click live lab simulation.
 
 > Security note: never commit API keys. Configure Pinecone, OpenAI, Google, Instagram, Facebook, or other provider credentials in `.env` only. Use official APIs/OAuth flows and respect platform terms instead of scraping private or protected data.
 
 ## Hackathon Submission
 
-Use `HACKATHON_SUBMISSION.md` for paste-ready title, pitch, judging steps, and demo link instructions. For the fastest public link, enable GitHub Pages from the `docs/` folder using `GITHUB_PAGES.md`. If you want the full backend API hosted too, follow `DEPLOYMENT.md`.
+Use `COPY_PASTE_SUBMISSION.md` for complete copy-paste competition answers, including OpenAI usage, model process, setup steps, and project title. Use `HACKATHON_SUBMISSION.md` for a shorter submission version. For the fastest public link, enable GitHub Pages from the `docs/` folder using `GITHUB_PAGES.md`. If you want the full backend API hosted too, follow `DEPLOYMENT.md`.
 
 ## Website Experience
 
